@@ -1,0 +1,98 @@
+*{
+    font-family: 'Combo', cursive;
+    font-size: 20px;
+    color: white;
+    background-color: darkslateblue;
+}
+
+.header{
+    background-image: url(..//images/logo.jpeg);
+    max-height: 400px;
+}
+
+.logo{
+    width: 200px; 
+    height: 200px;
+    text-align: left;
+    border-radius: 20%;
+    margin: 10px;
+}
+
+.barra{
+    text-align: right;
+    text-decoration: none;
+    color: white
+}
+
+.Home{
+    background-color: darkcyan;
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px;
+    border-radius: 10px;
+    border-left-width: 5%;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.Aficionados{
+    background-color: darkcyan;
+    color: white;
+    font-size: 30px;
+    border-bottom: 10px;
+    border-radius: 10px;
+    border-left-width: 5%;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.animate__hinge{
+    display: inline-flexbox;
+    width: 100px;
+    height: 50px;
+    margin: 30px;
+    padding: 10px;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    border-style: ridge;
+    margin-bottom: 20px;
+    text-decoration:underline;
+}
+
+.tenor-gif-embed{
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+h2{
+    background-color: darkcyan;
+    padding: 5px;
+}
+
+i{
+    color: white;
+    background-color: darkslateblue;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.videoplayer{
+    justify-content:space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer{
+    background-image: url(..//images/logo.jpeg);
+}
+

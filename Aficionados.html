@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//Infinito/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3507b9275.js" crossorigin="anonymous"></script>
+    <title> Aficionados </title>
+</head>
+<body>
+    <header class="header">
+        <img src="..//Infinito/images/monitoeternauta.jpg" alt="gatita eternauta" class="logo">
+        <nav class="barra">
+            <a class="Home" href="..//Infinito/index.html"> Home </a>
+        </nav>
+        <h1> Aficionados </h1>
+    </header>
+    <br>
+    <div> 
+    <h2> Formulario de registro </h2>
+<form action="show-data.html">
+<fieldset>
+    <legend> Datos personales </legend>
+    <label for="firstname"> Nombre: </label>
+    <input size="30" type="text" name="firstname">
+    <label for="nave"> Nave: </label>
+    <input size="30" type="text" name="nave">
+    <br><br>
+    <label for="model"> Modelo: </label>
+    <input size="30" type="text" name="model">
+    <br><br>
+    <label for="street"> Direccion espacial: </label>
+    <input type="text" name="address">
+    <label for="city"> Ciudad interestelar: </label>
+    <input type="text" name="city">
+    <br><br>
+    <label for="zipcode"> Latitud: </label>
+    <input type="text" name="zipcode">
+    <label for="galaxia"> Galaxia: </label>
+    <input type="galaxia" name="galaxia">
+    <br><br>
+    <p> Género  
+        <input type="radio" name="gender" value="hombre" checked> Humano
+        <input type="radio" name="gender" value="Mujer"> Alienígena
+        <input type="radio" name="gender" value="Otro"> Otro
+    </p>
+</fieldset>
+<p> Conocimientos previos: 
+    <input type="checkbox" name="conocimientos" value="HTML"> HTML
+    <input type="checkbox" name="conocimientos" value="CSS"> CSS
+    <input type="checkbox" name="conocimientos" value="BOOTSTRAP"> Bootstrap
+    <input type="checkbox" name="conocimientos" value="Javascript"> Javascript
+    <input type="checkbox" name="conocimientos" value="BaseDeDatos"> Base de Datos
+    <input type="checkbox" name="conocimientos" value="Python"> Python
+    <input type="checkbox" name="conocimientos" value="Django"> Django
+</p>
+<label for="idioma"> Idioma: </label>
+<select id="idioma" name="idioma">
+    <option value="mercuriano"> Mercuriano </option>
+    <option value="venuciano"> Venuciano </option>
+    <option value="terrestre"> Terrestre </option>
+    <option value="marturiano"> Marturiano </option>
+    <option value="jupiterniano"> Jupertiano </option>
+    <option value="saturnino"> Saturnino </option>
+    <option value="urano"> Urano </option>
+    <option value="neptuniano"> Neptuniano </option>
+</select>
+<br><br>
+<label for="comentarios"> Comentarios: </label> <textarea name="comentarios" rows="8" cols="50"></textarea>
+<br><br>
+<input type="submit" value="Enviar">
+<button type="reset"> Reset </button>
+</form>
+</div>
+<br>
+</body>
+<footer> 
+<video style="display: inline-block; height: 300px;" ref="video" autoplay="" muted="" playsinline="" class="videoplayer" id="video" controlslist="nodownload" poster="https://joy.videvo.net/videvo_files/video/free/2014-08/thumbnails/Earth_Zoom_Out_small.jpg">
+<source type="video/mp4" src="..//Infinito/asset/Earth_Zoom_Out.mov">
+</video>
+<iframe width="560" height="300" src="https://www.youtube.com/embed/kh7A88nmwLM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="videoplayer"></iframe>
+</footer>
+</html>
